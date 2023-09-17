@@ -13,9 +13,18 @@ export default function Home() {
 
       </MainLayout>
       <div className={HomeStyle.HomeLinks}>
-        <Link href="/">
-          <h1>Who is Zoe?</h1>
-        </Link>
+        <div className={HomeStyle.SubLinks}>
+          <Link href="/">
+            <Image priorit
+            src="/images/BaseZoe.PNG"
+            height={300}
+            width={300}
+            />
+          </Link>
+          <Link href="/">
+            <h1>Who is Zoe?</h1>
+          </Link>
+        </div>
       </div>  
     
     </>
