@@ -12,7 +12,7 @@ export default function LorePage() {
     {
       title: "Zoe Biography",
       img: "/images/Zoe_0.jpg",
-      link: "https://universe.leagueoflegends.com/en_US/story/champion/zoe/"
+      link: "/ZoeLore/ZoeBiography"
     },
     {
       title: "Zoe Side Story",

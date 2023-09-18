@@ -10,6 +10,7 @@ export const siteTitle = 'Zoe-Chan Website';
 
 export default function MainLayout({children, home}) {
   return (
+      
     <div className={Styles.container}>
       <header className={Styles.header}>
         {home ?(
@@ -18,11 +19,11 @@ export default function MainLayout({children, home}) {
           </>
         ):(
         <>
-          <h2 className={utilStyles.heading2Xl}>
+          <h1 className={utilStyles.heading2Xl}>
             <Link href="/">
               {SiteName}
             </Link>
-          </h2>
+          </h1>
 
         </>)}
       </header>
