@@ -14,15 +14,15 @@ export default function Home() {
       </MainLayout>
       <div className={HomeStyle.HomeLinks}>
         <div className={HomeStyle.SubLinks}>
-          <Link href="/">
-            <Image priorit
+          <Link href="/ZoeLore/LorePage">
+            <Image priority
             src="/images/BaseZoe.PNG"
             height={300}
             width={300}
             />
           </Link>
-          <Link href="/">
-            <h1>Who is Zoe?</h1>
+          <Link href="/ZoeLore/LorePage">
+            <h1 className="Bold text-2xl px-10">Who is Zoe?</h1>
           </Link>
         </div>
       </div>  

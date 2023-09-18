@@ -18,7 +18,7 @@ export default function MainLayout({children, home}) {
           </>
         ):(
         <>
-          <h2 className={utilStyles.headingLg}>
+          <h2 className={utilStyles.heading2Xl}>
             <Link href="/">
               {SiteName}
             </Link>
