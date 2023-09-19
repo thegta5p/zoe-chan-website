@@ -1,6 +1,5 @@
 import Image from "next/image";
 import MainLayout from "../../components/mainLayout";
-import BiographyStyle from "../../styles/BiographyPage.module.css";
 
 export default function ZoeBiography() {
   return (
