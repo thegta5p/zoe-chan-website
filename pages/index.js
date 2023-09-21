@@ -32,6 +32,7 @@ export default function Home() {
             shadow="lg"
             isPressable
             isHoverable
+            disableRipple
             radius="lg"
             className="border-none max-w-lg max-h-lg"
             onPress={()=>location.href = item.link}
