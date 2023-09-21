@@ -17,7 +17,7 @@ export default function LorePage() {
     {
       title: "Zoe Side Story",
       img: "/images/Zoe_1.jpg",
-      link: "/",
+      link: "/ZoeLore/ShortStory",
     }
   ];
   return(

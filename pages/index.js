@@ -12,12 +12,12 @@ export default function Home() {
     {
       title: "Who is Zoe?",
       link: "/ZoeLore/LorePage",
-      image: "/images/BaseZoe.PNG"
+      image: "/images/BaseZoe.PNG",
     },
     {
       title: "Zoe Builds",
       link: "https://u.gg/lol/champions/zoe/build",
-      image: "/images/CyberZoe.png",
+      image: "/images/CyberZoe2.png",
     }
 
   ];
@@ -26,30 +26,28 @@ export default function Home() {
       <MainLayout home>
 
       </MainLayout>
-    <div className={HomeStyle.HomeLinks}>
-      {list.map((item, index) => (
-        <Card 
-        shadow="lg"
-        isPressable
-        isHoverable
-        radius="lg"
-        className="border-none"
-        onPress={()=>location.href = item.link}
-        key={index}
-        >
-          <Image priority
-          src={item.image}
-          height={1920}
-          width={1080}
-          />
-          <CardFooter className="absolute justify-center">
-            <h1 className="text-2xl px-10"></h1>
-          </CardFooter>
-        </Card>
-          
-      
-      ))}
-    </div>
+      <div className={HomeStyle.HomeLinks}>
+        {list.map((item, index) => (
+          <Card 
+            shadow="lg"
+            isPressable
+            isHoverable
+            radius="lg"
+            className="border-none max-w-lg max-h-lg"
+            onPress={()=>location.href = item.link}
+            key={index}
+            >
+            <Image priority
+              src={item.image}
+              height={1080}
+              width={1920}
+            />
+            <CardHeader className="absolute bottom-0 justify-center">
+              <h1 className="text-2xl font-bold text-cyan-500 px-10">{item.title}</h1>
+            </CardHeader>
+          </Card>      
+        ))}
+      </div>
     
     </>
     
