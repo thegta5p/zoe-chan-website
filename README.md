@@ -1,6 +1,6 @@
 # Zoe Chan
 
-![Image of Cyberpop Zoe](public/images/CyberZoe2.png)
+![Image of Cyberpop Zoe](public/images/CyberZoe2.PNG)
 This is a website for Zoe from League of Legends. The webpage is a fanpage that will include the following:
 
 - Lore pages
