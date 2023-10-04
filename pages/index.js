@@ -17,7 +17,7 @@ export default function Home() {
     {
       title: "Zoe Builds",
       link: "https://u.gg/lol/champions/zoe/build",
-      image: "/images/CyberZoe2.png",
+      image: "/images/CyberZoe2.PNG",
     }
 
   ];
