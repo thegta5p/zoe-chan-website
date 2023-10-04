@@ -13,11 +13,13 @@ export default function Home() {
       title: "Who is Zoe?",
       link: "/ZoeLore/LorePage",
       image: "/images/BaseZoe.PNG",
+      alt: "Image of Base Zoe"
     },
     {
       title: "Zoe Builds",
       link: "https://u.gg/lol/champions/zoe/build",
       image: "/images/CyberZoe2.PNG",
+      alt: "Image of Cyber Pop Zoe"
     }
 
   ];
@@ -42,6 +44,7 @@ export default function Home() {
               src={item.image}
               height={1080}
               width={1920}
+              alt={item.alt}
             />
             <CardHeader className="absolute bottom-0 justify-center">
               <h1 className="text-2xl font-bold text-cyan-500 px-10">{item.title}</h1>
