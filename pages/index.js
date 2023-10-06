@@ -18,6 +18,11 @@ export default function Home() {
       title: "Zoe Builds",
       link: "https://u.gg/lol/champions/zoe/build",
       image: "/images/CyberZoe2.png",
+    },
+    {
+      title: "Skin Randomizer",
+      link: "/SkinRandomizer",
+      image: "/images/CyberZoe2.png",
     }
 
   ];
@@ -34,7 +39,7 @@ export default function Home() {
             isHoverable
             disableRipple
             radius="lg"
-            className="border-none max-w-lg max-h-lg"
+            className="border-none max-w-sm max-h-lg"
             onPress={()=>location.href = item.link}
             key={index}
             >
