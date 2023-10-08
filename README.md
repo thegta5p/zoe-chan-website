@@ -10,5 +10,4 @@ This is a website for Zoe from League of Legends. The webpage is a fanpage that 
 - Pages for fan art
 - etc.
 
-
 All the images used are owned by Riot Games.
