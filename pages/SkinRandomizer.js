@@ -5,6 +5,7 @@ import React, { useMemo, useState } from "react";
 import { Listbox, ListboxSection, ListboxItem } from "@nextui-org/react";
 import { Accordion, AccordionItem } from "@nextui-org/react";
 
+
 export default function SkinRandomizer() {
   var currImage = 0;
 
@@ -29,6 +30,7 @@ export default function SkinRandomizer() {
 
   const [selectedImage, setSelectedImage] = useState(skins[0].image);
   const [selectedSkin, setSelectedSkin] = useState(new Set(["Zoe"]));
+
 
   function NewImage() {
     const imageIndex = Math.floor(
@@ -72,6 +74,7 @@ export default function SkinRandomizer() {
         <Button color="primary" onPress={NewImage}>
           Change Image
         </Button>
+
 
         <Accordion>
           {skins.map((item, index) => (
